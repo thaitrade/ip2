@@ -7,13 +7,13 @@ public class Conta {
 	Double saldo;
 	
 	
-	void exibesaldo() {
+	public void exibesaldo() {
 		
 		System.out.println(cliente + " seu saldo e " + saldo);
 		
 	}
 	
-	void saca(double valor) {
+	public void saca(double valor) {
 		
 		
 		this.saldo = saldo - valor ;
@@ -21,7 +21,7 @@ public class Conta {
 		
 	}
 	
-	void deposita (double valor) {
+	public void deposita (double valor) {
 		
 		this.saldo = saldo + valor;
 		
